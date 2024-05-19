@@ -15,6 +15,7 @@ const PortfolioSection = () => {
         if (res.data && res.data.data) {
           setProjects(res.data.data);
           console.log("successfull");
+          console.log("List Projects Hind",projects);
         } else {
           console.error("Unexpected response structure:", res);
           setError("Unexpected response structure");
@@ -27,7 +28,7 @@ const PortfolioSection = () => {
   }, []);
 
   return (
-    <div id="portfolio" className="lg:w-[80%] lg:ml-[300px] my-[10%] py-[5%] bg-[#f5f8fd]">
+    <div id="portfolio" className="lg:w-[77%] lg:ml-[300px] my-[10%] py-[5%] bg-[#f5f8fd]">
       <div className="px-4">
         <h3 className="section-title">Portfolio</h3>
         <p>

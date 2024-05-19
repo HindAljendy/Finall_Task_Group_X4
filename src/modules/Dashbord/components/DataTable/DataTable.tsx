@@ -21,11 +21,10 @@ interface DataTableProps {
 }
 
 const projectsColumns: GridColDef[] = [
-    { field: 'id', headerName: 'ID', width: 70 },
+    { field: 'id', headerName: 'ID' },
     {
         field: 'image',
         headerName: 'Image',
-        width: 150,
         renderCell: (params: GridRenderCellParams) => (
             <img src={`${dev.url.PUBLIC_URL}${params.value}`}
                 alt="Project Image"
@@ -34,9 +33,9 @@ const projectsColumns: GridColDef[] = [
         ),
     },
 
-    { field: 'title', headerName: 'Project Title', width: 300 },
-    { field: 'category', headerName: 'Category', width: 130 },
-    { field: 'year', headerName: 'Year', type: 'number', width: 130 },
+    { field: 'title', headerName: 'Project Title' },
+    { field: 'category', headerName: 'Category'},
+    { field: 'year', headerName: 'Year', type: 'number'},
 ];
 
 
@@ -88,8 +87,7 @@ const DataTable: React.FC<DataTableProps> = () => {
         console.log(`showConfirm`, showConfirm)
     }, [selectedItemId]);
 
-
-
+  
     const [projects_rows, setProjectsRows] = useState<Project[]>([]);
 
     const getAllData = async () => {
@@ -111,7 +109,6 @@ const DataTable: React.FC<DataTableProps> = () => {
         field: "action",
         headerName: "Action",
         sortable: false,
-        width: 130,
         renderCell: (params) => {
             return (
                 <div className="cellAction" style={{ display: 'flex' }}>
@@ -122,6 +119,7 @@ const DataTable: React.FC<DataTableProps> = () => {
             );
         }
     };
+    
 
 
 

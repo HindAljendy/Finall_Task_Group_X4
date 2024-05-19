@@ -57,11 +57,12 @@
   #hero {
     background: url("assets/hero-bg-responsive.jpg") top center;  
     background-size: cover; 
+    background-attachment: fixed;
   }
   }
   @media(min-width: 1024px){
     #hero:before {
-        width:80%;
+        width:77%;
         margin-left: 300px;
         margin-right:0;
     }

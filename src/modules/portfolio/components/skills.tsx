@@ -33,7 +33,7 @@ const Skills = () => {
   return (
     <div
       id="skills"
-      className="lg:w-[80%] w-full lg:ml-[300px] my-[10%] py-[5%] bg-[#f5f8fd]"
+      className="lg:w-[77%] w-full lg:ml-[300px] my-[10%] py-[5%] bg-[#f5f8fd]"
     >
       <div className="px-4">
         <h3 className=" section-title ">Skills</h3>

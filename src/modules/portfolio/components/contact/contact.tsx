@@ -58,7 +58,7 @@ const Contact = () => {
   });
 
   return (
-    <div id="contact" className="lg:w-[80%] lg:ml-[300px] my-[10%]">
+    <div id="contact" className="lg:w-[77%] lg:ml-[300px] my-[10%]">
       <div className="px-4">
         <h3 className="section-title">Contact</h3>
         <p>

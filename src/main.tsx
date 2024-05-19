@@ -9,7 +9,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <BrowserRouter basename="/Group_Task_4">
+    <BrowserRouter basename="/Finall_Task_Group_X4">
       <App/>
     </BrowserRouter>
   </React.StrictMode>,

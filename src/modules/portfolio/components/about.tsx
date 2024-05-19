@@ -38,7 +38,7 @@ const About = () => {
     transform: isVisible ? 'translateX(0px)' : 'translateX(50px)',
   });
   return (
-    <div id="about" className="lg:w-[80%] lg:ml-[300px] w-full my-6">
+    <div id="about" className="lg:w-[77%] lg:ml-[300px] w-full my-6">
       <div className="px-4 ">
         <h3 className="section-title ">About</h3>
         <p>

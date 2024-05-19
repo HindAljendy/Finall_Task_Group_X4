@@ -5,7 +5,7 @@ const PortfolioDetails: React.FC<Project> = ({ image, year, description, title }
     <div>
         <div  className="W-full bg-[#fff] rounded-[10px] p-[20px]">
           <img
-            src={image}
+            src={`http://127.0.0.1:8000${image}`}
             className="rounded-[15px] overflow-hidden w-full"
             alt={title}
           />

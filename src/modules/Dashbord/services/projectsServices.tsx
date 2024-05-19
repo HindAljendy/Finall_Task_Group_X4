@@ -92,6 +92,7 @@ export async function deleteProjectById(id: any) {
 
         if (response.status === 200) {
             return response.data;
+            
         } else {
             throw new Error(`Failed to delete project with id=  ${id}`);
         }

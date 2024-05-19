@@ -28,7 +28,7 @@ const Hero = () => {
     "Software engineer ,Fullstack developer, problem solver ";
 
   return (
-    <div id="hero" className="lg:!w-[80%] lg:ml-[300px] !w-full mb-[10%] top-0 ">
+    <div id="hero" className="lg:!w-[77%] lg:ml-[300px] !w-full mb-[10%] top-0 ">
       <div className="flex flex-col justify-center ml-[20%] pt-[200px] relative z-2">
         <p className="font-[700] text-[30px] text-white">Alex Smith</p>
         <p className="text-white lg:w-max md:w-[300px] w-[200px]">
